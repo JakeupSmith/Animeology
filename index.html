@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="./anime.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="./anime.css">
+        <title>Animeology - Anime Recommendation Algorithm</title>
+    </head>
+
+    
+    <body>
+            
+        <!-- 
+            This is our card view + Scripts for Jikan API 
+        -->
+
+        <nav class="row">
+            <div class="nav-wrapper">
+                <div class="col s12">
+                    <a href="index.html" class="brand-logo">Animeology</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index.html">ABOUT</a></li>
+                        <li><a href="index.html">GENRE</a></li>
+                        <li><a href="index.html">MANGA</a></li>
+                        <li><a href="index.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="content">
+                <h1>Anime <br><span>Recommendation</span> <br>Algorithm</h1>
+                <p class="par">Do you need an automatic reommendation anime? <br> look no further as our website will automatically give you the best recommendations 
+                    <br> based on your watch list!  </p>
+    
+                    <button class="cn"><a href="#">JOIN US</a></button>
+    
+                    <div class="form">
+                        <h2>Login Here</h2>
+                        <input type="email" name="email" placeholder="Enter Email Here">
+                        <input type="password" name="" placeholder="Enter Password Here">
+                        <button class="btnn"><a href="#">Login</a></button>
+    
+                        <p class="link">Don't have an account
+                        <a href="index.html">Sign up </a> here!</a></p>
+
+                        <div class="icons">
+                            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fsignin" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="https://twitter.com/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                            <a href="https://accounts.google.com/AccountChooser/signinchooser?flowName=GlifWebSignIn&flowEntry=AccountChooser" target="_blank"><ion-icon name="logo-google" target="_blank"></ion-icon></a>
+                            <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1638386218&rver=7.1.6819.0&wp=MBI_SSL&wreply=https%3A%2F%2Flw.skype.com%2Flogin%2Foauth%2Fproxy%3Fclient_id%3D360605%26redirect_uri%3Dhttps%253A%252F%252Fsecure.skype.com%252Fportal%252Flogin%253Freturn_url%253Dhttps%25253A%25252F%25252Fsecure.skype.com%25252Fportal%25252Foverview%26response_type%3Dpostgrant%26state%3D252e0afa1dbf3111bf88a566&lc=1033&id=293290&mkt=en-US&psi=skype&lw=1&cobrandid=2befc4b5-19e3-46e8-8347-77317a16a5a5&client_flight=ReservedFlight33%2CReservedFlight67" target="_blank"><ion-icon name="logo-skype"></ion-icon></a>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <form id="search_form" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Search Anime" name="search" id="search" type="text" class="validate">
+                            <label for="search">Search</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="search-results" class="container">
+            
+        </div>
+        <div class="logo">
+            <img src="LogoFinal.png" width="264"height="150">
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>        
+        <script src="./anime.js"></script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+    
+</html>
